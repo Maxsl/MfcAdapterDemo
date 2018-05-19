@@ -1,0 +1,14 @@
+[%signature%]
+/* ============================================================
+	Function :		[%classname%]::[%functionname%]
+	Description :	[%description%]
+	Access :		[%access%]
+					
+	Return :		[%returnvalue%]
+	Parameters :	[%parameters%]
+	Usage :			[%usage%]
+
+   ============================================================*/
+{[%body%]
+}
+

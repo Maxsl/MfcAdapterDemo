@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MBCS Debug|Win32">
+      <Configuration>MBCS Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MBCS Debug|x64">
+      <Configuration>MBCS Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80664ED7-EFA4-40E8-8C2B-7BC2C2314FF9}</ProjectGuid>
+    <RootNamespace>AS::WpfMfcApplication</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'">$(SolutionDir)..\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\$(PlatformTarget)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\$(PlatformTarget)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'">
+    <OutDir>$(SolutionDir)..\$(PlatformTarget)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/UMLEditorDemo.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\include;Legacy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041d</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/UMLEditorDemo.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\..\Data\$(ConfigurationName)\*.*"  "$(ProjectDir)..\..\..\..\..\$(PlatformTarget)\$(ConfigurationName)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/UMLEditorDemo.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\include;Legacy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041d</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/UMLEditorDemo.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\..\Data\$(ConfigurationName)\*.*"  "$(ProjectDir)..\..\..\..\..\$(PlatformTarget)\$(ConfigurationName)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/UMLEditorDemo.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\include;Legacy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041d</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/UMLEditorDemo.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\..\Data\$(ConfigurationName)\*.*"  "$(ProjectDir)..\..\..\..\..\$(PlatformTarget)\$(ConfigurationName)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/UMLEditorDemo.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\include;Legacy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041d</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/UMLEditorDemo.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\..\Data\$(ConfigurationName)\*.*"  "$(ProjectDir)..\..\..\..\..\$(PlatformTarget)\$(ConfigurationName)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/UMLEditorDemo.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\include;Legacy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/UMLEditorDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041d</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release/UMLEditor.DLL</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/UMLEditorDemo.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\..\Data\$(ConfigurationName)\*.*"  "$(ProjectDir)..\..\..\..\..\$(PlatformTarget)\$(ConfigurationName)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release/UMLEditorDemo.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\include;Legacy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/UMLEditorDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041d</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release/UMLEditor.DLL</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/UMLEditorDemo.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\..\Data\$(ConfigurationName)\*.*"  "$(ProjectDir)..\..\..\..\..\$(PlatformTarget)\$(ConfigurationName)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Legacy\res\attach.cur" />
+    <None Include="Legacy\res\draw.cur" />
+    <None Include="Legacy\res\Toolbar.bmp" />
+    <None Include="Legacy\res\UMLEditorDemo.ico" />
+    <None Include="Legacy\res\UMLEditorDemo.rc2" />
+    <None Include="Legacy\res\UMLEditorDemoDoc.ico" />
+    <None Include="Legacy\res\up.cur" />
+    <None Include="Legacy\res\up.ico" />
+    <None Include="Legacy\Data\cpp_function_template.txt" />
+    <None Include="Legacy\Data\cpp_template.txt" />
+    <None Include="Legacy\Data\h_template.txt" />
+    <None Include="Legacy\Data\h_template_template.txt" />
+    <None Include="Legacy\Data\html_footer.txt" />
+    <None Include="Legacy\Data\html_header.txt" />
+    <None Include="Legacy\Data\images\darrow.gif" />
+    <None Include="Legacy\Data\images\dfarrow.gif" />
+    <None Include="Legacy\Data\images\interface.gif" />
+    <None Include="Legacy\Data\images\larrow.gif" />
+    <None Include="Legacy\Data\images\lfarrow.gif" />
+    <None Include="Legacy\Data\images\lrdiamond.gif" />
+    <None Include="Legacy\Data\images\lrjog.gif" />
+    <None Include="Legacy\Data\images\note.gif" />
+    <None Include="Legacy\Data\images\partof.gif" />
+    <None Include="Legacy\Data\images\rarrow.gif" />
+    <None Include="Legacy\Data\images\rfarrow.gif" />
+    <None Include="Legacy\Data\images\uarrow.gif" />
+    <None Include="Legacy\Data\images\uddiamond.gif" />
+    <None Include="Legacy\Data\images\udjog.gif" />
+    <None Include="Legacy\Data\images\ufarrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Legacy\AboutDlg.h" />
+    <ClInclude Include="Legacy\ChildFrm.h" />
+    <ClInclude Include="Legacy\ExportDialog.h" />
+    <ClInclude Include="Legacy\MainFrm.h" />
+    <ClInclude Include="Legacy\resource.h" />
+    <ClInclude Include="Legacy\StdAfx.h" />
+    <ClInclude Include="Legacy\UMLEditorDemo.h" />
+    <ClInclude Include="Legacy\UMLEditorDemoDoc.h" />
+    <ClInclude Include="Legacy\UMLEditorDemoTemp.h" />
+    <ClInclude Include="Legacy\UMLEditorDemoView.h" />
+    <ClInclude Include="Legacy\UMLEditor\AddParameterDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\Attribute.h" />
+    <ClInclude Include="Legacy\UMLEditor\AttributeContainer.h" />
+    <ClInclude Include="Legacy\UMLEditor\ClassAttributePropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\ClassDisplayPropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\ClassOperationPropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\ExListBox.h" />
+    <ClInclude Include="Legacy\UMLEditor\GetterSetterDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\LinkFactory.h" />
+    <ClInclude Include="Legacy\UMLEditor\Operation.h" />
+    <ClInclude Include="Legacy\UMLEditor\OperationContainer.h" />
+    <ClInclude Include="Legacy\UMLEditor\Parameter.h" />
+    <ClInclude Include="Legacy\UMLEditor\ParameterContainer.h" />
+    <ClInclude Include="Legacy\UMLEditor\Property.h" />
+    <ClInclude Include="Legacy\UMLEditor\PropertyContainer.h" />
+    <ClInclude Include="Legacy\UMLEditor\PropertyListEditorDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\resource.h" />
+    <ClInclude Include="Legacy\UMLEditor\StringHelpers.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLClassPropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLClipboardHandler.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLControlFactory.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEditor.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEditorPropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntity.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityClass.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityClassTemplate.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityContainer.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityDummy.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityInterface.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityLabel.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityNote.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityPackage.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLInterfacePropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLLabelPropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLLineSegment.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLLinkPropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLMenu.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLNotePropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLPackagePropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLTemplatePropertyDialog.h" />
+    <ClInclude Include="Legacy\UMLEditor\UMLUndoItem.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramClipboardHandler.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramEditor.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramEntity.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramEntityContainer.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramLine.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramMenu.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramPropertyDlg.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\GroupFactory.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\Tokenizer.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\UndoItem.h" />
+    <ClInclude Include="Legacy\UMLEditor\DiskObject\DiskObject.h" />
+    <ClInclude Include="Legacy\UMLEditor\TextFile\TextFile.h" />
+    <ClInclude Include="Legacy\Hosting\NotifyHook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Legacy\AboutDlg.cpp" />
+    <ClCompile Include="Legacy\ChildFrm.cpp" />
+    <ClCompile Include="Legacy\ExportDialog.cpp" />
+    <ClCompile Include="Legacy\MainFrm.cpp" />
+    <ClCompile Include="Legacy\StdAfx.cpp" />
+    <ClCompile Include="Legacy\UMLEditorDemo.cpp" />
+    <ClCompile Include="Legacy\UMLEditorDemoDoc.cpp" />
+    <ClCompile Include="Legacy\UMLEditorDemoTemp.cpp" />
+    <ClCompile Include="Legacy\UMLEditorDemoView.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\AddParameterDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\Attribute.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\AttributeContainer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\ClassAttributePropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\ClassDisplayPropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\ClassOperationPropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\ExListBox.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\GetterSetterDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\LinkFactory.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\Operation.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\OperationContainer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\Parameter.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\ParameterContainer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\Property.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\PropertyContainer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\PropertyListEditorDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\StringHelpers.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLClassPropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLClipboardHandler.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLControlFactory.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEditor.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEditorPropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntity.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityClass.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityClassTemplate.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityContainer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityDummy.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityInterface.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityLabel.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityNote.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityPackage.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLInterfacePropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLLabelPropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLLineSegment.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLLinkPropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLMenu.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLNotePropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLPackagePropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLTemplatePropertyDialog.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\UMLUndoItem.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramClipboardHandler.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramEditor.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramEntity.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramEntityContainer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramLine.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramMenu.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramPropertyDlg.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\GroupFactory.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\Tokenizer.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\UndoItem.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\DiskObject\DiskObject.cpp" />
+    <ClCompile Include="Legacy\UMLEditor\TextFile\TextFile.cpp" />
+    <ClCompile Include="Legacy\Hosting\NotifyHook.cpp" />
+    <ClCompile Include="MfcCommand.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|Win32'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='MBCS Debug|x64'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsManaged>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Legacy\UMLEditorDemo.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

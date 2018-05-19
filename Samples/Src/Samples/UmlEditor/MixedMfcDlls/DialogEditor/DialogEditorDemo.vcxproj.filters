@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0a75eb6d-8170-450c-ac8b-52b95228df45}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DiagramEditor">
+      <UniqueIdentifier>{c5d64d0a-6d8d-4400-8e95-5ade33c47c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f9f052c5-f857-4fd2-a70f-bfe350f794a5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{213e7ab9-d73e-493b-a013-435a3d3e7b8b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ButtonPropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramCheckbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramCombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramControlFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramGroupbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramListbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramRadiobutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditorDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditorDemoDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditorDemoTemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEditorDemoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MfcCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotifyHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdGrfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramClipboardHandler.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramEditor.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramEntity.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramEntityContainer.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramLine.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramMenu.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\DiagramPropertyDlg.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\GroupFactory.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\Tokenizer.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEditor\UndoItem.cpp">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DialogEditorDemo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiagramEditor\DiagramClipboardHandler.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\DiagramEditor.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\DiagramEntity.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\DiagramEntityContainer.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\DiagramLine.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\DiagramMenu.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\DiagramPropertyDlg.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\GroupFactory.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\Tokenizer.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEditor\UndoItem.h">
+      <Filter>Source Files\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramCheckbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramCombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramControlFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramGroupbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramListbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramRadiobutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditorDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditorDemoDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditorDemoTemp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogEditorDemoView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdGrfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DialogEditorDemo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DialogEditorDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DialogEditorDemoDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

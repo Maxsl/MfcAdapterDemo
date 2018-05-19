@@ -1,0 +1,49 @@
+﻿<!--WPF Page Demo-->
+<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:a="clr-namespace:AS.MfcHost;assembly=ViewFrameworkElement"  >
+  <FlowDocumentPageViewer Name="ZoomSource"> 
+
+    <!--Bind AS:UMLEditorHost.Zoom and SinglePageViewer.Zoom for the Zoom support-->
+
+    <FlowDocumentPageViewer.Resources>
+      <Style TargetType="{x:Type a:ViewFrameworkElement}">
+        <Setter Property="Zoom" Value="{Binding ElementName=ZoomSource, Path=Zoom, Mode=OneWay}"/>
+      </Style>
+    </FlowDocumentPageViewer.Resources>
+
+    <FlowDocument TextAlignment="Left" Background="AliceBlue">
+      <Paragraph>
+        <Bold>Hosting two MFC MDI applications in WPF Page</Bold>
+      </Paragraph>
+            <Paragraph>
+                <Italic BaselineAlignment="Bottom" Foreground="Red">Click on and drug content!
+                </Italic>
+            </Paragraph>
+
+            <Paragraph KeepTogether="True">
+        Document - <Italic Foreground="Blue">UMLEDI1.uml</Italic>
+        Hosted MFC application -  <Italic Foreground="Blue">UmlEditor</Italic>
+        <a:ViewFrameworkElement MfcAssemblyName="UmlEditor" MfcRootNamespace="AS.UmlEditor"
+              SourceDocument="UMLEDI1.uml" Focusable="true" AutoSize="true"/>
+      </Paragraph>
+            <Paragraph KeepTogether="True">
+                Document -
+                <Italic Foreground="Blue">UMLEDI2.uml</Italic>
+                Hosted MFC application -
+                <Italic Foreground="Blue">UmlEditor</Italic>
+                <a:ViewFrameworkElement MfcAssemblyName="UmlEditor" MfcRootNamespace="AS.UmlEditor"
+            SourceDocument="UMLEDI2.uml" Focusable="true" AutoSize="true"/>
+            </Paragraph>
+
+            <Paragraph KeepTogether="True">
+        Document - <Italic Foreground="Blue">DLGEDI1.dlg</Italic>
+        Hosted MFC application -  <Italic Foreground="Blue">DialogEditor</Italic>
+        <a:ViewFrameworkElement MfcAssemblyName="DialogEditor" MfcRootNamespace="AS.DlgEditor"
+              SourceDocument="DLGEDI1.dlg" Focusable="true" AutoSize="true"/>
+      </Paragraph>
+    </FlowDocument>
+
+  </FlowDocumentPageViewer>
+</Page>
+

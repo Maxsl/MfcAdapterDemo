@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Legacy">
+      <UniqueIdentifier>{6266f086-77cd-4c4e-8abc-104257b9a100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Resource Files">
+      <UniqueIdentifier>{64bab0a3-17c2-4c38-80eb-923091eb0b47}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Legacy\Header Files">
+      <UniqueIdentifier>{d621fed4-0869-451d-854d-a45c273e9587}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Legacy\Source Files">
+      <UniqueIdentifier>{c4561394-42c1-4683-94f5-a61d12b68497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Source Files\UMLEditor">
+      <UniqueIdentifier>{8dd9a1a7-de94-48ac-ab92-a8f0dff6142c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Source Files\UMLEditor\DiagramEditor">
+      <UniqueIdentifier>{86ad0b2c-98f3-43d9-bc94-0411b00e9e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Source Files\UMLEditor\DiskObject">
+      <UniqueIdentifier>{f4095ad3-dc56-45af-852e-84d299c32fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Source Files\UMLEditor\TextFile">
+      <UniqueIdentifier>{67ba638e-d50f-4379-8015-a40f007da49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Source Files\Hosting">
+      <UniqueIdentifier>{9e321110-0e5d-4c53-a4e0-4c0779b4032c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Data">
+      <UniqueIdentifier>{236fe9bb-492c-4908-b170-cc3d2a2a9ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Legacy\Data\images">
+      <UniqueIdentifier>{3b1d3967-10a4-422e-be8a-585a27f21fdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Legacy\res\attach.cur">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\draw.cur">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\Toolbar.bmp">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\UMLEditorDemo.ico">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\UMLEditorDemo.rc2">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\UMLEditorDemoDoc.ico">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\up.cur">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\res\up.ico">
+      <Filter>Legacy\Resource Files</Filter>
+    </None>
+    <None Include="Legacy\Data\cpp_function_template.txt">
+      <Filter>Legacy\Data</Filter>
+    </None>
+    <None Include="Legacy\Data\cpp_template.txt">
+      <Filter>Legacy\Data</Filter>
+    </None>
+    <None Include="Legacy\Data\h_template.txt">
+      <Filter>Legacy\Data</Filter>
+    </None>
+    <None Include="Legacy\Data\h_template_template.txt">
+      <Filter>Legacy\Data</Filter>
+    </None>
+    <None Include="Legacy\Data\html_footer.txt">
+      <Filter>Legacy\Data</Filter>
+    </None>
+    <None Include="Legacy\Data\html_header.txt">
+      <Filter>Legacy\Data</Filter>
+    </None>
+    <None Include="Legacy\Data\images\darrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\dfarrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\interface.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\larrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\lfarrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\lrdiamond.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\lrjog.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\note.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\partof.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\rarrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\rfarrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\uarrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\uddiamond.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\udjog.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+    <None Include="Legacy\Data\images\ufarrow.gif">
+      <Filter>Legacy\Data\images</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Legacy\AboutDlg.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\ChildFrm.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\ExportDialog.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\MainFrm.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\resource.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\StdAfx.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditorDemo.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditorDemoDoc.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditorDemoTemp.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditorDemoView.h">
+      <Filter>Legacy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\AddParameterDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\Attribute.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\AttributeContainer.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\ClassAttributePropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\ClassDisplayPropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\ClassOperationPropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\ExListBox.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\GetterSetterDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\LinkFactory.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\Operation.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\OperationContainer.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\Parameter.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\ParameterContainer.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\Property.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\PropertyContainer.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\PropertyListEditorDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\resource.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\StringHelpers.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLClassPropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLClipboardHandler.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLControlFactory.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEditor.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEditorPropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntity.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityClass.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityClassTemplate.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityContainer.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityDummy.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityInterface.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityLabel.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityNote.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLEntityPackage.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLInterfacePropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLLabelPropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLLineSegment.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLLinkPropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLMenu.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLNotePropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLPackagePropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLTemplatePropertyDialog.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\UMLUndoItem.h">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramClipboardHandler.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramEditor.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramEntity.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramEntityContainer.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramLine.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramMenu.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\DiagramPropertyDlg.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\GroupFactory.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\Tokenizer.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiagramEditor\UndoItem.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\DiskObject\DiskObject.h">
+      <Filter>Legacy\Source Files\UMLEditor\DiskObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\UMLEditor\TextFile\TextFile.h">
+      <Filter>Legacy\Source Files\UMLEditor\TextFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Legacy\Hosting\NotifyHook.h">
+      <Filter>Legacy\Source Files\Hosting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Legacy\AboutDlg.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\ChildFrm.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\ExportDialog.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\MainFrm.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\StdAfx.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditorDemo.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditorDemoDoc.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditorDemoTemp.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditorDemoView.cpp">
+      <Filter>Legacy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\AddParameterDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\Attribute.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\AttributeContainer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\ClassAttributePropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\ClassDisplayPropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\ClassOperationPropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\ExListBox.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\GetterSetterDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\LinkFactory.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\Operation.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\OperationContainer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\Parameter.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\ParameterContainer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\Property.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\PropertyContainer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\PropertyListEditorDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\StringHelpers.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLClassPropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLClipboardHandler.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLControlFactory.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEditor.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEditorPropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntity.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityClass.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityClassTemplate.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityContainer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityDummy.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityInterface.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityLabel.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityNote.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLEntityPackage.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLInterfacePropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLLabelPropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLLineSegment.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLLinkPropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLMenu.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLNotePropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLPackagePropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLTemplatePropertyDialog.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\UMLUndoItem.cpp">
+      <Filter>Legacy\Source Files\UMLEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramClipboardHandler.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramEditor.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramEntity.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramEntityContainer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramLine.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramMenu.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\DiagramPropertyDlg.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\GroupFactory.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\Tokenizer.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiagramEditor\UndoItem.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiagramEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\DiskObject\DiskObject.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\DiskObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\UMLEditor\TextFile\TextFile.cpp">
+      <Filter>Legacy\Source Files\UMLEditor\TextFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Legacy\Hosting\NotifyHook.cpp">
+      <Filter>Legacy\Source Files\Hosting</Filter>
+    </ClCompile>
+    <ClCompile Include="MfcCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Legacy\UMLEditorDemo.rc">
+      <Filter>Legacy\Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

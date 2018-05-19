@@ -1,0 +1,19 @@
+#ifndef [%definename%]
+#define [%definename%]
+
+///////////////////////////////////////////////////////////
+// File :		[%filename%]
+// Created :	[%currentdate%]
+//
+
+[%includelist%]
+template< [%parametertype%] > class [%classname%][%baseclass%]
+{
+public:
+[%operationlist%]
+
+// Attributes
+[%attributelist%]
+
+};
+#endif //[%definename%]

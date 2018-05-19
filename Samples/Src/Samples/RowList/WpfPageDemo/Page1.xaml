@@ -1,0 +1,74 @@
+﻿<!--WPF Page Demo-->
+<Page x:Class="WpfPageDemo.Page1" 
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:a="clr-namespace:AS.MfcHost;assembly=ViewFrameworkElement" >
+	<FlowDocumentPageViewer Name="ZoomSource">
+		<!--Bind AS:UMLEditorHost.Zoom and SinglePageViewer.Zoom for the Zoom support-->
+
+		<FlowDocumentPageViewer.Resources>
+			<Style TargetType="{x:Type a:ViewFrameworkElement}">
+				<Setter Property="Zoom" Value="{Binding ElementName=ZoomSource, Path=Zoom, Mode=OneWay}"/>
+			</Style>
+		</FlowDocumentPageViewer.Resources>
+
+		<FlowDocument TextAlignment="Left" Background="AliceBlue">
+			<Paragraph>
+                <Bold>Hosting MFC application with CListView, CLayoutView in WPF Page</Bold>
+			</Paragraph>
+            <Paragraph>
+                <Italic BaselineAlignment="Bottom" Foreground="Red">Click on and change content!
+                </Italic>
+            </Paragraph>
+			<Paragraph Name="_RowList" KeepTogether="True">
+				Application -
+				<Italic Foreground="Blue">RowList</Italic>
+				Template -
+				<Italic Foreground="Blue">1</Italic>
+				<DockPanel DockPanel.Dock="Top">
+					<ToolBarTray>
+						<ToolBar Name="toolBarCommon"  Band="1" BandIndex="1">
+							<Button Name="but1" Click="Button_Click">
+								<Image Source="Resources\but1.png" />
+							</Button>
+							<Button Name="but2" Click="Button_Click">
+								<Image Source="Resources\but2.png" />
+							</Button>
+							<Button Name="but3" Click="Button_Click">
+								<Image Source="Resources\but3.png" />
+							</Button>
+							<Button Name="but4" Click="Button_Click">
+								<Image Source="Resources\but4.png" />
+							</Button>
+							<Button Name="but5" Click="Button_Click">
+								<Image Source="Resources\but5.png" />
+							</Button>
+						</ToolBar>
+						</ToolBarTray>
+					</DockPanel>
+
+				<a:ViewFrameworkElementEx Name="_RowListView" MfcAssemblyName="RowList" MfcRootNamespace="AS.RowList"
+            TemplatePosition="1"  Focusable="true" AutoSize="true"/>
+			</Paragraph>
+
+			<Paragraph KeepTogether="True">
+				Application -
+				<Italic Foreground="Blue">SimpleTest</Italic>
+				Template -
+				<Italic Foreground="Blue">1</Italic>
+				<a:ViewFrameworkElement MfcAssemblyName="SimpleCtrl" MfcRootNamespace="AS.SimpleTest"
+            TemplatePosition="1"  Focusable="true" AutoSize="true"/>
+			</Paragraph>
+
+			<Paragraph KeepTogether="True">
+				Application -
+				<Italic Foreground="Blue">SimpleTest</Italic>
+				Template -
+				<Italic Foreground="Blue">2</Italic>
+                <a:ViewFrameworkElement MfcAssemblyName="SimpleCtrl" MfcRootNamespace="AS.SimpleTest"
+            TemplatePosition="2"  Focusable="true" AutoSize="true"/>
+			</Paragraph>
+		</FlowDocument>
+
+	</FlowDocumentPageViewer>
+</Page>

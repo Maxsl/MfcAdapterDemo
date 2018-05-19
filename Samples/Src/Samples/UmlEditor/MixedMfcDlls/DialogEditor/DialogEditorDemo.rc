@@ -1,0 +1,652 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DialogEditorDemo.ico"
+IDR_DIALOGTYPE          ICON    DISCARDABLE     "res\\DialogEditorDemoDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    SEPARATOR
+    BUTTON      IDC_SETTINGS
+    SEPARATOR
+    BUTTON      ID_RESTRAIN
+    BUTTON      ID_MARGINS
+    SEPARATOR
+    BUTTON      ID_SNAP_TO_GRID
+    BUTTON      ID_SHOW_GRID
+    SEPARATOR
+    BUTTON      ID_BUTTON_MULTIDRAW
+    SEPARATOR
+    BUTTON      ID_ADD_NONE
+    BUTTON      ID_ADD_BUTTON
+    BUTTON      ID_ADD_EDIT
+    BUTTON      ID_ADD_STATIC
+    BUTTON      ID_ADD_CHECKBOX
+    BUTTON      ID_ADD_RADIOBUTTON
+    BUTTON      ID_ADD_COMBOBOX
+    BUTTON      ID_ADD_LISTBOX
+    BUTTON      ID_ADD_GROUPBOX
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Export",                      ID_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Select all\tCtrl+A",          IDC_SELECT_ALL
+    END
+    POPUP "&Paper"
+    BEGIN
+        MENUITEM "Show grid",                   ID_SHOW_GRID
+        MENUITEM "Snap to grid",                ID_SNAP_TO_GRID
+        MENUITEM "Show margin",                 ID_MARGINS
+        MENUITEM "Snap to margin",              ID_RESTRAIN
+        MENUITEM SEPARATOR
+        MENUITEM "Settings",                    IDC_SETTINGS
+    END
+    POPUP "&Controls"
+    BEGIN
+        MENUITEM "Button\tCtrl+B",              ID_ADD_BUTTON
+        MENUITEM "Editbox\tCtrl+E",             ID_ADD_EDIT
+        MENUITEM "Checkbox\tCtrl+H",            ID_ADD_CHECKBOX
+        MENUITEM "Radiobutton\tCtrl+R",         ID_ADD_RADIOBUTTON
+        MENUITEM "Listbox\tCtrl+L",             ID_ADD_LISTBOX
+        MENUITEM "Combobox\tCtrl+M",            ID_ADD_COMBOBOX
+        MENUITEM "Groupbox\tCtrl+G",            ID_ADD_GROUPBOX
+        MENUITEM "Static label\tCtrl+T",        ID_ADD_STATIC
+    END
+    POPUP "&Layout"
+    BEGIN
+        MENUITEM "Left align",                  ID_LEFT_ALIGN
+        MENUITEM "Right align",                 ID_RIGHT_ALIGN
+        MENUITEM "Top align",                   ID_TOP_ALIGN
+        MENUITEM "Bottom align",                ID_BOTTOM_ALIGN
+        MENUITEM SEPARATOR
+        MENUITEM "Make same size",              ID_MAKE_SAME_SIZE
+        MENUITEM SEPARATOR
+        MENUITEM "Up",                          ID_UP
+        MENUITEM "Down",                        ID_DOWN
+        MENUITEM "To front",                    ID_FRONT
+        MENUITEM "To bottom",                   ID_BOTTOM
+        MENUITEM SEPARATOR
+        MENUITEM "Properties...",               IDC_PROPERTIES
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "Zoom"
+        BEGIN
+            MENUITEM "25%",                         IDC_25PERC
+            MENUITEM "50%",                         IDC_50PERC
+            MENUITEM "60%",                         IDC_60PERC
+            MENUITEM "70%",                         IDC_70PERC
+            MENUITEM "80%",                         IDC_80PERC
+            MENUITEM "90%",                         IDC_90PERC
+            MENUITEM "100%",                        IDC_100PERC
+            MENUITEM "110%",                        IDC_110PERC
+            MENUITEM "120%",                        IDC_120PERC
+            MENUITEM "130%",                        IDC_130PERC
+            MENUITEM "140%",                        IDC_140PERC
+            MENUITEM "150%",                        IDC_150PERC
+            MENUITEM "200%",                        IDC_200PERC
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About DialogEditorDemo...",  ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            IDC_SELECT_ALL,         VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_ADD_BUTTON,          VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_ADD_EDIT,            VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_ADD_GROUPBOX,        VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_ADD_CHECKBOX,        VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_ADD_LISTBOX,         VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_ADD_COMBOBOX,        VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_ADD_RADIOBUTTON,     VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_ADD_STATIC,          VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About DialogEditorDemo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DialogEditorDemo Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DialogEditorDemo MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DialogEditorDemo\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DialogEditorDemo.EXE\0"
+            VALUE "ProductName", "DialogEditorDemo Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "DialogEditorDemo\n\nDialog\n\n\nDialogEditorDemo.Document\nDialog Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "DialogEditorDemo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_PROPERTIES          "Change the properties for the selected object\nProperties"
+    IDC_SETTINGS            "Change the settings for the application\nSettings"
+    ID_ADD_BUTTON           "Add a button\nButton"
+    ID_ADD_EDIT             "Add an editbox\nEditbox"
+    ID_ADD_STATIC           "Add a static label\nStatic"
+    IDC_90PERC              "90% zoom"
+    IDC_80PERS              "80% zoom"
+    IDC_70PERC              "70% zoom"
+    IDC_60PERC              "60% zoom"
+    IDC_50PERC              "50% zoom"
+    IDC_25PERC              "25% zoom"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_100PERC             "100% zoom"
+    IDC_110PERC             "110% zoom"
+    IDC_120PERC             "120% zoom"
+    IDC_130PERC             "130% zoom"
+    IDC_140PERC             "140% zoom"
+    IDC_150PERC             "150% zoom"
+    IDC_200PERC             "200% zoom"
+    IDC_SELECT_ALL          "Select all objects"
+    ID_ADD_CHECKBOX         "Add a checkbox\nCheckbox"
+    ID_ADD_RADIOBUTTON      "Add a radiobutton\nRadiobutton"
+    ID_ADD_LISTBOX          "Add a listbox\nListbox"
+    ID_ADD_GROUPBOX         "Add a groupbox\nGroupbox"
+    ID_ZOOM_IN              "Zoom in\nZoom in"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ZOOM_OUT             "Zoom out\nZoom out"
+    ID_ADD_COMBOBOX         "Add a combobox\nCombobox"
+    ID_SNAP_TO_GRID         "Snap objects to grid\nSnap to grid"
+    ID_SHOW_GRID            "Show/hide grid\nGrid"
+    ID_SNAP_TO_MARGIN       "Restrain objects inside margins\nRestrain"
+    ID_MARGINS              "Show/hide margins\nMargins"
+    ID_RESTRAIN             "Restrain objects to margin\nSnap to margin"
+    ID_LEFT_ALIGN           "Align all selected objects to the left"
+    ID_RIGHT_ALIGN          "Align all selected objects to the right"
+    ID_TOP_ALIGN            "Top-align all selected object "
+    ID_BOTTOM_ALIGN         "Bottom-align all selected objects"
+    ID_MAKE_SAME_SIZE       "Make all selected objects the same size"
+    ID_UP                   "Move selected object up"
+    ID_DOWN                 "Move selected object down"
+    ID_FRONT                "Move selected object to front"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BOTTOM               "Move selected object to the bottom"
+    ID_EXPORT               "Export dialog to DHTML"
+    ID_ADD_NONE             "Stop adding controls\nStop adding"
+    ID_BUTTON_MULTIDRAW     "Set multiple draw on/off\nMultidraw"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Swedish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SVE)
+#ifdef _WIN32
+LANGUAGE LANG_SWEDISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SETTINGS DIALOG DISCARDABLE  0, 0, 207, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,5,115,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,60,115,50,14
+    LTEXT           "Width:",IDC_STATIC,10,10,25,10
+    EDITTEXT        IDC_EDIT_WIDTH,40,10,35,15,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Height:",IDC_STATIC,10,30,24,8
+    EDITTEXT        IDC_EDIT_HEIGHT,40,30,35,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Grid size",IDC_STATIC,115,0,80,55
+    LTEXT           "Width:",IDC_STATIC,120,10,20,10
+    EDITTEXT        IDC_EDIT_GRID_WIDTH,150,10,35,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Height",IDC_STATIC,120,30,25,8
+    EDITTEXT        IDC_EDIT_GRID_HEIGHT,150,30,35,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Paper",IDC_STATIC,5,0,75,55
+    GROUPBOX        "Margins",IDC_STATIC,5,60,190,50
+    LTEXT           "Left:",IDC_STATIC,10,70,30,10
+    LTEXT           "Top:",IDC_STATIC,10,90,30,10
+    EDITTEXT        IDC_EDIT_LEFT,45,70,30,15,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_TOP,45,90,30,15,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Right:",IDC_STATIC,80,70,30,10
+    LTEXT           "Bottom",IDC_STATIC,80,90,30,10
+    EDITTEXT        IDC_EDIT_RIGHT,110,70,30,15,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BOTTOM,110,90,30,15,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG_BUTTON_PROPERTIES DIALOGEX 0, 0, 167, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Control properties"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_TITLE,30,4,130,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,30,20,90,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Apply",IDC_BUTTON_APPLY,125,20,35,15
+    LTEXT           "Title:",IDC_STATIC,5,5,15,10
+    LTEXT           "Name:",IDC_STATIC,5,20,20,10
+END
+
+IDD_DIALOG_EDIT_PROPERTIES DIALOGEX 0, 0, 167, 42
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Control properties"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Apply",IDC_BUTTON_APPLY,125,20,35,15
+    LTEXT           "Name:",-1,5,5,20,10
+    EDITTEXT        IDC_EDIT_NAME,30,5,130,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_DIALOG_BUTTON_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG_EDIT_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 35
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DialogEditorDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Swedish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DialogEditorDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

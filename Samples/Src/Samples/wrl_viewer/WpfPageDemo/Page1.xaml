@@ -1,0 +1,49 @@
+﻿<!--WPF Page Demo-->
+<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:a="clr-namespace:AS.MfcHost;assembly=ViewFrameworkElement"  >
+    <FlowDocumentPageViewer Name="ZoomSource">
+
+    <!--Bind AS:UMLEditorHost.Zoom and SinglePageViewer.Zoom for the Zoom support-->
+
+    <FlowDocumentPageViewer.Resources>
+            <Style TargetType="{x:Type a:ViewFrameworkElementEx}">
+        <Setter Property="Zoom" Value="{Binding ElementName=ZoomSource, Path=Zoom, Mode=OneWay}"/>
+      </Style>
+    </FlowDocumentPageViewer.Resources>
+
+    <FlowDocument TextAlignment="Left" Background="AliceBlue" >
+      <Paragraph>
+        <Bold>Hosting MFC application OpenGL wrl viewer in WPF Page</Bold>
+      </Paragraph>
+            <Paragraph>
+                <Italic BaselineAlignment="Bottom" Foreground="Red">Click on and drug content!
+                </Italic>
+            </Paragraph>
+      <Paragraph KeepTogether="True">
+                Document -
+                <Italic Foreground="Blue">nefertiti.wrl</Italic>
+        Hosted MFC application -  <Italic Foreground="Blue">WrlViewer</Italic>
+                <a:ViewFrameworkElementEx MfcAssemblyName="Mesh" MfcRootNamespace="AS.WrlViewer"
+              SourceDocument="nefertiti.wrl" Focusable="true" AutoSize="true"/>
+               
+                 
+            </Paragraph>
+      <Paragraph KeepTogether="True">
+                Document -
+                <Italic Foreground="Blue">venus.wrl</Italic>
+        Hosted MFC application -  <Italic Foreground="Blue">WrlViewer</Italic>
+                <a:ViewFrameworkElementEx MfcAssemblyName="Mesh" MfcRootNamespace="AS.WrlViewer"
+              SourceDocument="venus.wrl" Focusable="true" AutoSize="true"/>
+      </Paragraph>
+      <Paragraph KeepTogether="True" >
+        Document - <Italic Foreground="Blue">mnt.wrl</Italic>
+        Hosted MFC application -  <Italic Foreground="Blue">WrlViewer</Italic>
+                <a:ViewFrameworkElementEx MfcAssemblyName="Mesh" MfcRootNamespace="AS.WrlViewer"
+              SourceDocument="mnt.wrl" Focusable="true" AutoSize="true"/>
+      </Paragraph>
+    </FlowDocument>
+
+  </FlowDocumentPageViewer>
+</Page>
+

@@ -1,0 +1,34 @@
+/* ==========================================================================
+	File :			[%filename%].cpp
+	
+	Class :			[%classname%]
+
+	Date :			[%currentdate%]
+
+	Purpose :		
+
+	Description :	
+
+	Usage :			
+
+   ========================================================================*/
+
+#include "stdafx.h"
+#include "[%filename%].h"
+[%includes%]
+
+////////////////////////////////////////////////////////////////////
+// Public functions
+//
+[%publicfunctions%]
+
+////////////////////////////////////////////////////////////////////
+// Protected functions
+//
+[%protectedfunctions%]
+
+////////////////////////////////////////////////////////////////////
+// Private functions
+//
+[%privatefunctions%]
+

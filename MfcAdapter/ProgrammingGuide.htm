@@ -1,0 +1,2794 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="ProgrammingGuide_files/filelist.xml">
+<link rel=Edit-Time-Data href="ProgrammingGuide_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>alex</o:Author>
+  <o:LastAuthor>Alex</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:Created>2013-11-07T15:00:00Z</o:Created>
+  <o:LastSaved>2013-11-07T15:00:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>1528</o:Words>
+  <o:Characters>8714</o:Characters>
+  <o:Lines>72</o:Lines>
+  <o:Paragraphs>20</o:Paragraphs>
+  <o:CharactersWithSpaces>10222</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="ProgrammingGuide_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="ProgrammingGuide_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>140</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--pre
+	{overflow:auto;}
+.TOP
+	{cursor:hand;}
+.MENUGROUP
+	{position:relative;
+	top:0px;}
+.MI
+	{cursor:hand;}
+.MIS
+	{cursor:hand;}
+.MIN
+	{cursor:hand;}
+.MISN
+	{cursor:hand;}
+BUTTON.toolbar {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid; FONT-FAMILY: Verdana, Arial, Tahoma, "MS Sans Serif", sans-serif; BACKGROUND-COLOR: white
+}
+textarea#CONTENTTEXT
+	{BEHAVIOR: url(/styles/lnkutils.htc)
+;}
+.navbar:active {
+	COLOR: red
+}
+.NAVMENUITEM
+	{position:relative;
+	top:2px;}
+.NavMenuItem:active {
+	COLOR: red
+}
+a.HOVERLINK
+	{cursor:hand;}
+.forum_link:link {
+	COLOR: #e08900; TEXT-DECORATION: none
+}
+.forum_link:visited {
+	COLOR: #e08900; TEXT-DECORATION: none
+}
+.forum_link:active {
+	COLOR: #e08900; TEXT-DECORATION: none
+}
+.CLSBUTTON
+	{cursor:hand;}
+.CLSBUTTONLNK
+	{cursor:hand;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-520092929 1073806591 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:windowtext;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:13.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#FF9900;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#FF9900;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	margin-bottom:1.5pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;
+	font-weight:bold;}
+h5
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 5 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	margin-bottom:1.5pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:9.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#FF9900;
+	font-weight:bold;}
+h6
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 6 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#626262;
+	font-weight:normal;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+code
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";
+	color:#990000;}
+pre
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"HTML Preformatted Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	background:#FBEDBB;
+	font-size:9.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:windowtext;}
+tt
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:windowtext;}
+span.MsoSubtleReference
+	{mso-style-priority:31;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	font-variant:small-caps;
+	color:#C0504D;
+	mso-themecolor:accent2;
+	text-decoration:underline;
+	text-underline:single;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 5";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;}
+span.Heading6Char
+	{mso-style-name:"Heading 6 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 6";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;
+	font-style:italic;}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"HTML Preformatted";
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Consolas;
+	mso-bidi-font-family:Consolas;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.menugroup, li.menugroup, div.menugroup
+	{mso-style-name:menugroup;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#FFCC99;
+	font-size:10.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;}
+p.mi, li.mi, div.mi
+	{mso-style-name:mi;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FFCC99;
+	border:none;
+	mso-border-alt:solid #FFCC99 .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 3.0pt;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.mis, li.mis, div.mis
+	{mso-style-name:mis;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:3.0pt;
+	mso-pagination:widow-orphan;
+	background:#FFCC99;
+	border:none;
+	mso-border-alt:solid #FFCC99 .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 3.0pt;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.min, li.min, div.min
+	{mso-style-name:min;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:1.5pt;
+	mso-pagination:widow-orphan;
+	background:#FFCC99;
+	border:none;
+	mso-border-alt:solid #FFCC99 1.0pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.misn, li.misn, div.misn
+	{mso-style-name:misn;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:1.5pt;
+	mso-pagination:widow-orphan;
+	background:#FFCC99;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.sidebar, li.sidebar, div.sidebar
+	{mso-style-name:sidebar;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:white;
+	font-weight:bold;}
+p.navbar, li.navbar, div.navbar
+	{mso-style-name:navbar;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:white;
+	font-weight:bold;}
+p.navmenuitem, li.navmenuitem, div.navmenuitem
+	{mso-style-name:navmenuitem;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.5pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.adlink, li.adlink, div.adlink
+	{mso-style-name:adlink;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.infobar, li.infobar, div.infobar
+	{mso-style-name:infobar;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.infobarlist, li.infobarlist, div.infobarlist
+	{mso-style-name:infobarlist;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.infobarheader, li.infobarheader, div.infobarheader
+	{mso-style-name:infobarheader;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#AB2600;
+	font-weight:bold;}
+p.hoverlink, li.hoverlink, div.hoverlink
+	{mso-style-name:hoverlink;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#FBEDBB;
+	border:none;
+	mso-border-alt:solid #FBEDBB .75pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 2.0pt 1.0pt 2.0pt;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.mainheader, li.mainheader, div.mainheader
+	{mso-style-name:mainheader;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.5pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;
+	font-weight:bold;}
+p.formbutton, li.formbutton, div.formbutton
+	{mso-style-name:formbutton;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#E08900;
+	font-size:11.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:white;
+	font-weight:bold;}
+p.sitenewsheading, li.sitenewsheading, div.sitenewsheading
+	{mso-style-name:sitenewsheading;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.devnewsheading, li.devnewsheading, div.devnewsheading
+	{mso-style-name:devnewsheading;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.links, li.links, div.links
+	{mso-style-name:links;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.messagetitle, li.messagetitle, div.messagetitle
+	{mso-style-name:messagetitle;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.sitenews, li.sitenews, div.sitenews
+	{mso-style-name:sitenews;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.smalltext, li.smalltext, div.smalltext
+	{mso-style-name:smalltext;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.newsflash, li.newsflash, div.newsflash
+	{mso-style-name:newsflash;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	margin-top:3.75pt;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.devnewscontent, li.devnewscontent, div.devnewscontent
+	{mso-style-name:devnewscontent;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.messagecontent, li.messagecontent, div.messagecontent
+	{mso-style-name:messagecontent;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.5pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.default, li.default, div.default
+	{mso-style-name:default;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.forumhilite, li.forumhilite, div.forumhilite
+	{mso-style-name:forum_hilite;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:yellow;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.fq, li.fq, div.fq
+	{mso-style-name:fq;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:12.0pt;
+	margin-bottom:0cm;
+	margin-left:3.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-left-alt:solid gray 2.25pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 7.0pt;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#556655;}
+p.fqa, li.fqa, div.fqa
+	{mso-style-name:fqa;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:-3.0pt;
+	mso-pagination:widow-orphan;
+	font-size:7.5pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.cpp-comment, li.cpp-comment, div.cpp-comment
+	{mso-style-name:cpp-comment;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:green;
+	font-style:italic;}
+p.cs-comment, li.cs-comment, div.cs-comment
+	{mso-style-name:cs-comment;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:green;
+	font-style:italic;}
+p.vb-comment, li.vb-comment, div.vb-comment
+	{mso-style-name:vb-comment;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:green;
+	font-style:italic;}
+p.cpp-keyword, li.cpp-keyword, div.cpp-keyword
+	{mso-style-name:cpp-keyword;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;}
+p.cs-keyword, li.cs-keyword, div.cs-keyword
+	{mso-style-name:cs-keyword;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;}
+p.vb-function, li.vb-function, div.vb-function
+	{mso-style-name:vb-function;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;}
+p.cpp-preprocessor, li.cpp-preprocessor, div.cpp-preprocessor
+	{mso-style-name:cpp-preprocessor;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:navy;}
+p.cs-preprocessor, li.cs-preprocessor, div.cs-preprocessor
+	{mso-style-name:cs-preprocessor;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:navy;}
+p.cpp-string, li.cpp-string, div.cpp-string
+	{mso-style-name:cpp-string;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:purple;}
+p.cs-string, li.cs-string, div.cs-string
+	{mso-style-name:cs-string;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:purple;}
+p.vb-string, li.vb-string, div.vb-string
+	{mso-style-name:vb-string;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:purple;}
+p.cpp-literal, li.cpp-literal, div.cpp-literal
+	{mso-style-name:cpp-literal;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:midnightblue;}
+p.cs-literal, li.cs-literal, div.cs-literal
+	{mso-style-name:cs-literal;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:midnightblue;}
+p.vb-literal, li.vb-literal, div.vb-literal
+	{mso-style-name:vb-literal;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:midnightblue;}
+p.vb-keyword, li.vb-keyword, div.vb-keyword
+	{mso-style-name:vb-keyword;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;}
+p.vb-statement, li.vb-statement, div.vb-statement
+	{mso-style-name:vb-statement;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;}
+p.clsbutton, li.clsbutton, div.clsbutton
+	{mso-style-name:clsbutton;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#FF9900;
+	border:none;
+	mso-border-alt:solid #FF9900 .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#333300;
+	font-weight:bold;}
+p.clsbuttonlnk, li.clsbuttonlnk, div.clsbuttonlnk
+	{mso-style-name:clsbuttonlnk;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#333300;
+	font-weight:bold;}
+p.featurebox, li.featurebox, div.featurebox
+	{mso-style-name:featurebox;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#A5C9EF;
+	border:none;
+	mso-border-alt:solid #6699CC .75pt;
+	padding:0cm;
+	mso-padding-alt:2.0pt 2.0pt 2.0pt 2.0pt;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.featureboxheader, li.featureboxheader, div.featureboxheader
+	{mso-style-name:featureboxheader;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:13.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#993300;
+	font-weight:bold;}
+p.featureboxheaderarrow, li.featureboxheaderarrow, div.featureboxheaderarrow
+	{mso-style-name:featureboxheaderarrow;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#6699CC;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.forumlink, li.forumlink, div.forumlink
+	{mso-style-name:forum_link;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+p.adlink1, li.adlink1, div.adlink1
+	{mso-style-name:adlink1;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+span.itemtexttop
+	{mso-style-name:itemtexttop;
+	mso-style-unhide:no;}
+span.sidebtnhidden
+	{mso-style-name:sidebtnhidden;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1480344337;
+	mso-list-template-ids:-25008484;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:1718821753;
+	mso-list-template-ids:347238226;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid black 1.0pt;
+	mso-border-themecolor:text1;
+	mso-border-alt:solid black .5pt;
+	mso-border-themecolor:text1;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid black;
+	mso-border-insideh-themecolor:text1;
+	mso-border-insidev:.5pt solid black;
+	mso-border-insidev-themecolor:text1;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+table.MsoTableLightShadingAccent2
+	{mso-style-name:"Light Shading - Accent 2";
+	mso-tstyle-rowband-size:1;
+	mso-tstyle-colband-size:1;
+	mso-style-priority:60;
+	mso-style-unhide:no;
+	border-top:solid #C0504D 1.0pt;
+	mso-border-top-themecolor:accent2;
+	border-left:none;
+	border-bottom:solid #C0504D 1.0pt;
+	mso-border-bottom-themecolor:accent2;
+	border-right:none;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:#943634;
+	mso-themecolor:accent2;
+	mso-themeshade:191;}
+table.MsoTableLightShadingAccent2FirstCol
+	{mso-style-name:"Light Shading - Accent 2";
+	mso-table-condition:first-column;
+	mso-style-priority:60;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTableLightShadingAccent2LastCol
+	{mso-style-name:"Light Shading - Accent 2";
+	mso-table-condition:last-column;
+	mso-style-priority:60;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTableLightShadingAccent2OddColumn
+	{mso-style-name:"Light Shading - Accent 2";
+	mso-table-condition:odd-column;
+	mso-style-priority:60;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#EFD3D2;
+	mso-tstyle-shading-themecolor:accent2;
+	mso-tstyle-shading-themetint:63;
+	mso-tstyle-border-left:cell-none;
+	mso-tstyle-border-right:cell-none;
+	mso-tstyle-border-insideh:cell-none;
+	mso-tstyle-border-insidev:cell-none;}
+table.MsoTableLightShadingAccent2OddRow
+	{mso-style-name:"Light Shading - Accent 2";
+	mso-table-condition:odd-row;
+	mso-style-priority:60;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#EFD3D2;
+	mso-tstyle-shading-themecolor:accent2;
+	mso-tstyle-shading-themetint:63;
+	mso-tstyle-border-left:cell-none;
+	mso-tstyle-border-right:cell-none;
+	mso-tstyle-border-insideh:cell-none;
+	mso-tstyle-border-insidev:cell-none;}
+table.MsoTableLightListAccent2
+	{mso-style-name:"Light List - Accent 2";
+	mso-tstyle-rowband-size:1;
+	mso-tstyle-colband-size:1;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	border:solid #C0504D 1.0pt;
+	mso-border-themecolor:accent2;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+table.MsoTableLightListAccent2FirstCol
+	{mso-style-name:"Light List - Accent 2";
+	mso-table-condition:first-column;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTableLightListAccent2LastCol
+	{mso-style-name:"Light List - Accent 2";
+	mso-table-condition:last-column;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTableLightListAccent2OddColumn
+	{mso-style-name:"Light List - Accent 2";
+	mso-table-condition:odd-column;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:1.0pt solid #C0504D;
+	mso-tstyle-border-top-themecolor:accent2;
+	mso-tstyle-border-left:1.0pt solid #C0504D;
+	mso-tstyle-border-left-themecolor:accent2;
+	mso-tstyle-border-bottom:1.0pt solid #C0504D;
+	mso-tstyle-border-bottom-themecolor:accent2;
+	mso-tstyle-border-right:1.0pt solid #C0504D;
+	mso-tstyle-border-right-themecolor:accent2;}
+table.MsoTableLightListAccent2OddRow
+	{mso-style-name:"Light List - Accent 2";
+	mso-table-condition:odd-row;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:1.0pt solid #C0504D;
+	mso-tstyle-border-top-themecolor:accent2;
+	mso-tstyle-border-left:1.0pt solid #C0504D;
+	mso-tstyle-border-left-themecolor:accent2;
+	mso-tstyle-border-bottom:1.0pt solid #C0504D;
+	mso-tstyle-border-bottom-themecolor:accent2;
+	mso-tstyle-border-right:1.0pt solid #C0504D;
+	mso-tstyle-border-right-themecolor:accent2;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>*
+Copyright (c) 2005 Alexey <span class=SpellE>Shalnov.All</span> Rights Reserved
+<a href="http://home.arcor.de/alexeyshalnov/home/">http://home.arcor.de/alexeyshalnov/home/</a>
+*<o:p></o:p></span></p>
+
+<h1><span class=SpellE><span class=GramE><span lang=EN style='mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN'>MfcAdapter</span></span></span><span
+class=GramE><span lang=EN style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN'> v 2.2.</span></span><span lang=EN style='mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN'> <span class=GramE>Programming Guide.</span><o:p></o:p></span></h1>
+
+<p><span lang=EN style='mso-ansi-language:EN'><a href="#Architecture">Architecture</a><o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'><a href="#MixDll">How to convert
+your MFC application to mix <span class=SpellE>dll</span></a><o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'><a href="#QuckStart">Quick start:
+hosting simple MFC<span lang=EN-US style='mso-ansi-language:EN-US'>/Dialog</span>
+application (VS2005)</a> </span><span class=MsoHyperlink><o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'><a href="#Build_prerequisites">Build
+prerequisites</a></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'><a href="#Compatibility">Compatibility</a><o:p></o:p></span></p>
+
+<p><span class=SpellE><span lang=EN style='mso-ansi-language:EN'>MfcAdapter</span></span><span
+lang=EN style='mso-ansi-language:EN'> is <span class=GramE>a .Net component
+provided the build old MFC MDI application in an existing .NET application or
+rapidly create</span> a new <span class=SpellE>WinForms</span>/WPF GUI
+framework for it. After this, you can gradually migrate from the old MFC
+dialogs and views to the new <span class=SpellE>WinForms</span> or to the WPF
+UI elements. Such an alternative Microsoft, intermediate integration of MFC and
+<span class=SpellE>WinForms</span></span>/WPF<span lang=EN style='mso-ansi-language:
+EN'> might seem to be more expedient for larger MFC MDI projects in comparison
+with a complete migration into .NET.<o:p></o:p></span></p>
+
+<h2><a name=Architecture></a><span lang=EN style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN'>Architecture<o:p></o:p></span></h2>
+
+<p><span lang=EN style='mso-ansi-language:EN'>The main idea of the <span
+class=SpellE>MfcAdapter</span> architecture is to make it fully independent
+from an actual MFC application:<o:p></o:p></span></p>
+
+<p><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_5" o:spid="_x0000_i1028" type="#_x0000_t75"
+ style='width:487.5pt;height:415.5pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="ProgrammingGuide_files/image001.gif" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=650 height=554
+src="ProgrammingGuide_files/image001.gif" v:shapes="Picture_x0020_5"><![endif]></span><span
+lang=EN style='mso-ansi-language:EN'><o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'>The <strong><span
+style='font-family:"Verdana","sans-serif"'>low level</span></strong> .NET
+component in the described architecture is a <span class=GramE>Mixed</span> (managed/unmanaged)
+<span class=SpellE>Dll</span> with a MFC application and the managed class </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>ModuleState</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> inside. The </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>ModuleState</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> is a managed pointer to unmanaged</span><code><span
+lang=EN style='mso-ansi-language:EN'> AFX_MODULE_STATE</span></code><span
+lang=EN style='mso-ansi-language:EN'> of the MFC application. With static
+method </span><span class=SpellE><span class=GramE><code><span lang=EN
+style='mso-ansi-language:EN'>ModuleState.GetModuleState</span></code></span></span><span
+class=GramE><code><span lang=EN style='mso-ansi-language:EN'>(</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>)</span></code><span lang=EN
+style='mso-ansi-language:EN'> the <span class=SpellE>MfcAdapter</span> or other
+C++/CLI component can load </span><code><span lang=EN style='mso-ansi-language:
+EN'>AFX_MODULE_STATE</span></code><span lang=EN style='mso-ansi-language:EN'>
+from necessary Mixed <span class=SpellE>Dll</span>. After this, <span
+class=SpellE>MfcAdapter</span> can switch to this </span><code><span lang=EN
+style='mso-ansi-language:EN'>AFX_MODULE_STATE</span></code><span lang=EN
+style='mso-ansi-language:EN'> and use the unmanaged API of the hosted MFC
+application. Additionally, the Mixed MFC <span class=SpellE>Dll</span> provides
+managed equivalents to <span class=SpellE>CommandIDs</span> which can be
+processed in the MFC application.<br>
+<br>
+The <b>mid-level</b> component's <span class=SpellE>MfcAppAdapter</span>, <span
+class=SpellE>ViewCtrl</span> and <span class=SpellE>ViewFrameworkElemen</span>
+are wrappers to the unmanaged MFC application. These components combine into <span
+class=SpellE>MfcAdapter</span>. <span class=SpellE>MfcAppAdapter</span> is
+responsible for the initialization/termination of the encapsulated MFC
+application, the command interface to the application and the document opening.
+The MFC View created in hosted MFC application can be found with method </span><span
+class=SpellE><span class=GramE><code><span lang=EN style='mso-ansi-language:
+EN'>MfcAppAdapter.GetCreatedView</span></code></span></span><span class=GramE><code><span
+lang=EN style='mso-ansi-language:EN'>(</span></code></span><code><span lang=EN
+style='mso-ansi-language:EN'>)</span></code><span lang=EN style='mso-ansi-language:
+EN'> and be hosted in <span class=SpellE>ViewCtrl</span> (<span class=SpellE>WinForms</span>)
+or <span class=SpellE>ViewFrameworkElement</span>(WPF). Mid-level <span
+class=SpellE><span class=GramE>component's</span></span> are not <span
+class=SpellE>dependant</span> on the actual MFC application or on the actual
+.Net/WPF framework. The <span class=SpellE>MfcAdapter</span> supports different
+type of<span class=GramE>&nbsp; MFC</span> applications -SDI/MDI/Dialog
+based/Multiple top-level documents.<br>
+<br>
+The <b>high level</b> component is <span class=SpellE>WinForms</span> (<span
+class=SpellE>FormsDemo</span>) or WPF (<span class=SpellE>WPFDemo</span>)
+application. This application supports:<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span lang=EN style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+EN'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN style='mso-ansi-language:EN'>Simply
+layout of hosted </span><code><span lang=EN style='mso-ansi-language:EN'>Controls</span></code><span
+lang=EN style='mso-ansi-language:EN'> (<span class=SpellE>FormsDemo</span>) or
+hosted </span><span class=SpellE><code><span lang=EN style='mso-ansi-language:
+EN'>FrameworkElemens</span></code></span><span lang=EN style='mso-ansi-language:
+EN'> (<span class=SpellE>WPFDemo</span>)<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span lang=EN style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+EN'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span lang=EN
+style='mso-ansi-language:EN'>UpdateUI</span></span><span lang=EN
+style='mso-ansi-language:EN'> and event handling of the </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>ToolStrip</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> (<span class=SpellE>FormsDemo</span>) or </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>ToolBar</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> (<span class=SpellE>WPFDemo</span>) in
+hosted MFC applications.<o:p></o:p></span></p>
+
+<h2><a name=MixDll></a><span lang=EN style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN'>How to convert your MFC application to mix <span
+class=SpellE>dll</span><o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=EN style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN'>Before the using of <span class=SpellE>MfcAdapter</span>
+you have to convert your MFC Application to a mixed MFC <span class=SpellE>dll</span>.
+As a rule, the MFC class based application architecture is strongly typed. A
+lot of classes, for example, the MDI classes </span><span class=SpellE><code><span
+lang=EN style='font-size:10.0pt;mso-ansi-language:EN'>CDocument</span></code><span
+class=GramE><span lang=EN style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN'>,</span><code><span lang=EN style='font-size:10.0pt;
+mso-ansi-language:EN'>CView</span></code></span></span><span lang=EN
+style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='font-size:10.0pt;mso-ansi-language:
+EN'>CFrameWnd</span></code></span><span lang=EN style='mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN'>, and others cannot be used without the
+</span><span class=SpellE><code><span lang=EN style='font-size:10.0pt;
+mso-ansi-language:EN'>CWinApp</span></code></span><span lang=EN
+style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN'>
+(application) class and a complicated initialization. The simple solution in
+this case is to put the full application in a DLL and to mix with the managed
+C++ class </span><span class=SpellE><code><span lang=EN style='font-size:10.0pt;
+mso-ansi-language:EN'>ModuleState</span></code></span><span lang=EN
+style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN'>. We can
+use this class as the managed interface between the <span class=SpellE>WinForms</span>
+framework and the MFC application.<o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'>1. To provide normally unmanaged
+and managed initializations of mixed MFC <span class=SpellE>dll</span> use
+special project settings: <o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=400
+ style='width:300.0pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt' id=table9>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Configuration <span class=SpellE>Typee</span><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Dynamic Library (<em>.<span class=SpellE>dll</span></em>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Character Set<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Use Unicode Character Set<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Use Managed Extensions<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>No<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Output File<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><em><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>.<span class=SpellE>dll</span></span></em><span
+  style='mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span lang=EN style='mso-ansi-language:EN'>Update options which come against
+the compiler option <em><span style='font-family:"Verdana","sans-serif"'>/<span
+class=SpellE>clr</span></span></em> for the project configuration file and for other
+source files:<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=400
+ style='width:300.0pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt' id=table8>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Basic Runtime Checks<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Default<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Enable Minimal Rebuild<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>No<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Enable C++ Exceptions<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>With SHE Exceptions (/<span class=SpellE>EHa</span>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Debug Information Format<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Program Database (/<span class=SpellE>Zi</span>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Create/Use Precompiled Headers<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Not Using Precompiled Headers<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Entry Point<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span lang=EN style='mso-ansi-language:EN'>2. Add MfcCommand.cpp with </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>ModuleState</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> class to the project and set for this
+file &quot;Common Language Runtime Support (/<span class=SpellE>clr</span>)&quot;.
+Other project classes are unmanaged and have to have &quot;No Common Language
+Runtime support&quot; setting!!!<o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'>3. Add &quot;Additional Include
+Directories&quot; - &quot;%<span class=SpellE>MfcAdapter</span>%\include<span
+class=GramE>&quot; ,</span> %<span class=SpellE>MfcAdapter</span>% is <span
+class=SpellE>MfcAdapter</span> install directory.<o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'>4. Resolve a linker problem - the
+LNK2005 error. Add macro </span><code><span lang=EN style='mso-ansi-language:
+EN'>AFX_MANAGE_STATE (<span class=SpellE><span class=GramE>AfxGetStaticModuleState</span></span><span
+class=GramE>(</span>))</span></code><span lang=EN style='mso-ansi-language:
+EN'> to the static constructor or at the beginning of </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>InitInstance</span></code></span><span
+lang=EN style='mso-ansi-language:EN'>. Now MFC application can be compiled as
+mixed MFC <span class=SpellE>dll</span>.<o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-ansi-language:EN'>5. Before the using mixed MFC <span
+class=SpellE>dll</span> with <span class=SpellE>MfcAdapter</span> you have to
+make some changes: <o:p></o:p></span></p>
+
+<p style='margin-top:5.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:
+list 36.0pt'><![if !supportLists]><span lang=EN style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+EN'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span lang=EN style='mso-ansi-language:EN'>Keep
+an invisible </span></b><span class=SpellE><code><b><span lang=EN
+style='mso-ansi-language:EN'>CMainFrame</span></b></code></span><b><span
+lang=EN style='mso-ansi-language:EN'> and a created </span></b><span
+class=SpellE><code><b><span lang=EN style='mso-ansi-language:EN'>CView</span></b></code></span><b><span
+lang=EN style='mso-ansi-language:EN'> <span class=GramE>and &nbsp;modal</span> properties
+of the hosted dialogs.</span></b><span lang=EN style='mso-ansi-language:EN'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt'><span lang=EN style='mso-ansi-language:EN'>You have to
+remove the creation of the main window from </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>InitInstance</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> to the new </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>AttachApplication</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> method and create the MFC <span
+class=SpellE>MainFrame</span> window as child of Framework <span class=SpellE>MainForm</span>
+window (override </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>CMainFrame</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>PreCreateWindow</span></span></code><span
+lang=EN style='mso-ansi-language:EN'>). The view's content has to be invisible
+when creating and initializing. It would be activated only after attaching to
+the <span class=SpellE>WinForms</span> control. In the source code, set </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>bMakeVisibleparameter</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> <span class=GramE>to</span> </span><code><span
+lang=EN style='mso-ansi-language:EN'>false</span></code><span lang=EN
+style='mso-ansi-language:EN'> in the overridden </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>MultiDocTemplate</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>OpenDocumentFile</span></span></code><span
+lang=EN style='mso-ansi-language:EN'>, and </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>CMainFrame</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>OnWindowNew</span></span></code><span
+lang=EN style='mso-ansi-language:EN'>. Don't use </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>CView</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>OnCreate</span></span></code><span
+lang=EN style='mso-ansi-language:EN'>. Creating and initializing of our view
+class' members inherited from </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>CWnd</span></code></span><span lang=EN
+style='mso-ansi-language:EN'>, </span><code><span lang=EN style='mso-ansi-language:
+EN'>Control</span></code><span lang=EN style='mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>DropTarget.Register</span></code></span><span
+lang=EN style='mso-ansi-language:EN'>, </span><code><span lang=EN
+style='mso-ansi-language:EN'>ToolTip</span></code><span lang=EN
+style='mso-ansi-language:EN'>, and so on, should be removed from the </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>OnCreate</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> method to the </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>OnInitialUpdate</span></code></span><span
+lang=EN style='mso-ansi-language:EN'>. In this case, these members will be
+created after the view is attached to the <span class=SpellE>WinForms</span>
+control. Add new </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>DetachApplication</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'> </span></code><span lang=EN
+style='mso-ansi-language:EN'>method and override </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>CMainFrame</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>OnClose</span></span></code><span
+lang=EN style='mso-ansi-language:EN'> and </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>CMainFrame</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>OnDestroy</span></span></code><span
+lang=EN style='mso-ansi-language:EN'> to close main window by exit application.
+The normal close scenario occurs when a client calls dispose on the </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>MfcAppAdapter</span></code></span><span
+lang=EN style='mso-ansi-language:EN'> and closes the legacy MFC application
+before the <span class=SpellE>WinForms</span> Framework <span class=SpellE>MainForm</span>
+is closed. Use the </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>CNotifyHook</span></code></span><span lang=EN
+style='mso-ansi-language:EN'> in the MFC <span class=SpellE>MainFrame</span>
+for support modal MFC dialogs in external framework. <o:p></o:p></span></p>
+
+<p style='margin-top:9.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;tab-stops:
+list 36.0pt'><![if !supportLists]><span lang=EN style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+EN'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span lang=EN style='mso-ansi-language:EN'>Auto-layout
+support.</span></b><span lang=EN style='mso-ansi-language:EN'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt'><span lang=EN style='mso-ansi-language:EN'>You have to
+implement some methods from </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>CLayoutView</span></code></span><span lang=EN
+style='mso-ansi-language:EN'> class in your hosted view: </span><span
+class=SpellE><span class=GramE><code><span lang=EN style='mso-ansi-language:
+EN'>SetPrefferedSize</span></code></span></span><span class=GramE><code><span
+lang=EN style='mso-ansi-language:EN'>(</span></code></span><code><span lang=EN
+style='mso-ansi-language:EN'>)</span></code><span lang=EN style='mso-ansi-language:
+EN'>, </span><span class=SpellE><code><span lang=EN style='mso-ansi-language:
+EN'>GetPreferredSize</span></code></span><code><span lang=EN style='mso-ansi-language:
+EN'>(), and Scale(). </span><o:p></o:p></code></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN style='mso-bidi-font-family:
+"Courier New";mso-ansi-language:EN'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can simply find all changes in samples project. All changes begin with
+comment </span><code><span lang=EN style='mso-ansi-language:EN'>//******AS
+update start********</span></code></p>
+
+<h2><a name=QuckStart></a><a name="Build_prerequisites"></a><span
+style='mso-bookmark:QuckStart'><span lang=EN style='mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN'>Quick start: hosting simple MFC/Dialog
+application<o:p></o:p></span></span></h2>
+
+<span style='mso-bookmark:QuckStart'></span>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+mso-fareast-font-family:"Times New Roman"'>For simplicity, I describe here
+hosting of simple MFC/Dialogs application in .NET Framework - without hosting
+of views and VS designer support. The purpose of this sample is to help you to
+start with your MFC application hosting. It consists of 8 steps which you need
+to create Visual Studio 2005 wizards MFC/Dialogs application &quot;<span
+class=SpellE>DialogWiz</span>&quot; and to host it in &#8220;<span
+class=SpellE>FormsDemo_DialogWiz</span>&#8221; <span class=SpellE>WinForms</span>
+.Net application. The resulted source code you can find in <span class=SpellE>MfcAdapter</span>
+2.2 samples. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+mso-fareast-font-family:"Times New Roman"'>NOTE: Because <span class=SpellE>MfcAdapter</span>
+2.2 does not <span class=GramE>supports</span> <span class=SpellE>CWinAppEx</span>,
+you can create this sample only in VS2005! If you use VS2010, please use the
+&quot;<span class=SpellE>DialogWiz</span>&quot; sample <span class=GramE>from<span
+style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>MfcAdapter</span></span>
+2.2 samples.<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width="100%"
+ style='width:100.26%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt' id=table1>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></p>
+  <p>1. Create Visual C++ MFC Application &quot;<span class=SpellE>DialogWiz</span>&quot;
+  with default <span id="PROJECT_SETTINGS"><span class=itemtexttop>project </span></span>settings
+  - <span TEXT id="APP_TYPE_SUMMARY"><span class=sidebtnhidden>Multiple
+  document interface</span></span><span class=itemtexttop>, </span><span TEXT
+  id="DB_SUPPORT_SUMMARY"><span class=sidebtnhidden>No database support ...</span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+   id="Picture_x0020_6" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:408.75pt;
+   height:296.25pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="ProgrammingGuide_files/image002.gif" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img border=0 width=545 height=395
+  src="ProgrammingGuide_files/image003.gif" v:shapes="Picture_x0020_6"><![endif]></span><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+  "Times New Roman"'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></p>
+  <p>2. Copy source code files NotifyHook.cpp, <span class=SpellE>NotifyHook.h</span>,
+  <span class=SpellE>CHostApp.h</span>, MfcCommand.cpp from resulted source
+  code to you solution directory and add it to your &quot;<span class=SpellE>DialogWiz</span>&quot;
+  project. Now we have this project tree:</p>
+  <p>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+   id="Picture_x0020_7" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:111pt;
+   height:259.5pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="ProgrammingGuide_files/image004.gif" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img border=0 width=148 height=346
+  src="ProgrammingGuide_files/image005.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
+  style='font-size:10.0pt;font-family:"Verdana","sans-serif";mso-fareast-font-family:
+  "Times New Roman"'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></p>
+  <p>3.Change Project setting</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;mso-fareast-font-family:
+  "Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td width="100%" valign=top style='width:100.0%;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></p>
+    <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=400
+     style='width:300.0pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+     0cm 5.4pt 0cm 5.4pt' id=table10>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Configuration
+      Type<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Dynamic
+      Library (<i>.<span class=SpellE>dll</span></i>)<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Additional
+      Include Directories<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>&quot;$(<span
+      class=SpellE>ProjectDir</span>)&quot;<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:2'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Debug
+      Information Format<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Program
+      Database (/<span class=SpellE>Zi</span>)<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:3'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Enable
+      C++ Exceptions<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>With
+      SHE Exceptions (/<span class=SpellE>EHa</span>)<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:4'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Enable
+      Minimal Rebuild<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>No<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:5'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Basic
+      Runtime Checks<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Default<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:6'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Create/Use
+      Precompiled Headers<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Not
+      Using Precompiled Headers<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:7'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Output
+      File<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>$(<span
+      class=SpellE>OutDir</span>)\$(ProjectName).dll<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span class=SpellE><span style='mso-fareast-font-family:
+      "Times New Roman"'>Debuggable</span></span><span style='mso-fareast-font-family:
+      "Times New Roman"'> Assembly<o:p></o:p></span></p>
+      </td>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Yes
+      (/ASSEMBLYDEBUG)<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><span style='font-size:10.0pt;mso-fareast-font-family:
+  "Times New Roman"'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p>4. Change &quot;CLR support&quot; property of MfcCommand.cpp</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width="100%" valign=top style='width:100.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:"Verdana","sans-serif";
+  mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></p>
+  <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=400
+   style='width:300.0pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 5.4pt 0cm 5.4pt' id=table14>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Compile
+    with Common Language Runtime Support<o:p></o:p></span></p>
+    </td>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Common
+    Language Runtime Support (/<span class=SpellE>clr</span>)<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>5. Change DialogWiz.cpp <span class=SpellE>DialogWiz.h</span> and
+MainForm.cpp <span class=SpellE>MainForm.h</span> as in resulted source code. I
+track all changes with comments<span class=GramE>:</span><br>
+<br>
+//******AS update start**************************//<br>
+//******AS update end**************************//<br>
+&nbsp; &nbsp;</p>
+
+<p>6. Add to solution new Visual C# Windows Application <span class=GramE>&quot;
+<span class=SpellE>FormsDemo</span></span><span class=SpellE>_DialogWiz</span>
+&quot;. Add reference to DialogWiz.dll, and to <span class=SpellE>MfcAppAdapter</span>.<br>
+&nbsp; &nbsp;</p>
+
+<p>7. Overwrite files Form1.cs, Form1.Designer.cs, Form1.resx from the resulted
+source code to our project.</p>
+
+<p>8. Set Debug Configuration and <span class=GramE>&quot; <span class=SpellE>FormsDemo</span></span><span
+class=SpellE>_DialogWiz</span> &quot; project as <span class=SpellE>StartUp</span>
+Project. Press F5 - Good luck!</p>
+
+<p><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_8"
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:511.5pt;height:366.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="ProgrammingGuide_files/image006.gif" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=682 height=489
+src="ProgrammingGuide_files/image007.jpg" v:shapes="Picture_x0020_8"><![endif]></span></p>
+
+<h2><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+EN'>Build prerequisites&nbsp;<o:p></o:p></span></h2>
+
+<p style='margin:0cm;margin-bottom:.0001pt'><span lang=EN style='mso-bidi-font-family:
+"Courier New";mso-ansi-language:EN'>Because the <span class=SpellE>MfcAdapter</span>
+uses MFC library, you have to avoid mix different version of <span
+class=SpellE>MfcAdapter</span> assemblies (Debug and Release, different
+character set, different MFC or CLR versions). You can simply copy necessary
+Debug or Release assemblies by Post Build Event in project settings. </span><span
+lang=EN style='mso-ansi-language:EN'><o:p></o:p></span></p>
+
+<h2><a name="License_provider"></a><a name=Compatibility></a><span lang=EN
+style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>Compatibility<o:p></o:p></span></h2>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
+ mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=221 valign=top style='width:166.05pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p align=center style='text-align:center'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>Control/</span><span class=SpellE>FrameworkElement</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=EN style='mso-bidi-font-family:
+  "Courier New";mso-ansi-language:EN'><o:p></o:p></span></b></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p align=center style='text-align:center'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>Type<o:p></o:p></span></b></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p align=center style='text-align:center'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>Support of MFC applications container<o:p></o:p></span></b></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p align=center style='text-align:center'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>Supported MFC Views<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:21.6pt'>
+  <td width=221 valign=top style='width:166.05pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
+  mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE>ViewCtrl</span> <span lang=EN style='mso-bidi-font-family:
+  "Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE><span lang=EN style='mso-bidi-font-family:"Courier New";
+  mso-ansi-language:EN'>WinForms</span></span><span lang=EN style='mso-bidi-font-family:
+  "Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>Yes<o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE>CWnd</span>, <span class=SpellE>CView</span>, <span
+  class=SpellE>CScrollView</span><span lang=EN style='mso-bidi-font-family:
+  "Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:21.6pt'>
+  <td width=221 valign=top style='width:166.05pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
+  mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE>ViewFrameworkElement</span> <span lang=EN
+  style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>WPF <o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>Yes<o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE>CWnd</span>, <span class=SpellE>CView</span>, <span
+  class=SpellE>CScrollView</span><span lang=EN style='mso-bidi-font-family:
+  "Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes;height:21.6pt'>
+  <td width=221 valign=top style='width:166.05pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
+  mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE>ViewFrameworkElementEx</span> <span lang=EN
+  style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>WPF<o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+  EN'>No<o:p></o:p></span></p>
+  </td>
+  <td width=220 valign=top style='width:165.1pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0cm 5.4pt 0cm 5.4pt;height:21.6pt'>
+  <p><span class=SpellE>CWnd</span>, <span class=SpellE>CView</span>, <span
+  class=SpellE>CScrollView</span>, <span class=SpellE>CCtrlView</span>, <span
+  class=SpellE>CListView</span>, <span class=SpellE>CTreeView</span>, <span
+  class=SpellE>CEditView</span>, <span class=SpellE>CRichEditView</span><span
+  lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+EN'>All classes <span class=SpellE>suport</span> the hosting of </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CWnd</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> or </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CScrollView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> based <span
+class=GramE>customers</span> views. You can directly embed a control object
+(like </span><span class=SpellE><code><span lang=EN style='mso-ansi-language:
+EN'>CListCtrl</span></code></span><span lang=EN style='mso-bidi-font-family:
+"Courier New";mso-ansi-language:EN'>, </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>CHeaderCtrl</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> and so
+on+) or for example </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>COleDropTarget</span></code></span><span lang=EN
+style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> as class
+member in your class. In any case don't use </span><span class=SpellE><code><span
+lang=EN style='mso-ansi-language:EN'>CView</span></code></span><code><span
+lang=EN style='mso-ansi-language:EN'>::<span class=SpellE>OnCreate</span></span></code><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> for
+creating and initializing of view class' members inherited from </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CWnd</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>. This
+code should be removed from the </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>OnCreate</span></code></span><span lang=EN
+style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> method to the </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>OnInitialUpdate</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>. In
+this case, these members will be created after the view attached to the <span
+class=SpellE>WinForms</span> </span><code><span lang=EN style='mso-ansi-language:
+EN'>Control</span></code><span lang=EN style='mso-bidi-font-family:"Courier New";
+mso-ansi-language:EN'> or to </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>HwndHost</span></code></span><span lang=EN
+style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> element in
+WPF.<o:p></o:p></span></p>
+
+<p><span class=SpellE><span lang=EN style='mso-bidi-font-family:"Courier New";
+mso-ansi-language:EN'>ViewFrameworkElementEx</span></span><span lang=EN
+style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> extends <span
+class=SpellE>ViewFrameworkElement</span> to support the hosting of </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CCtrlView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CListView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CTreeView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CEditView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CRichEditView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> based
+customer&#8217;s views. <span class=SpellE>ViewFrameworkElementEx</span> can
+host just as <span class=SpellE>ViewFrameworkElement</span> </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CWnd</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'>, </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> or </span><span
+class=SpellE><code><span lang=EN style='mso-ansi-language:EN'>CScrollView</span></code></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> based
+customer&#8217;s views. But it can be used only for hosting single MFC
+application. See the sample &#8220;</span><span class=SpellE><span
+style='mso-bidi-font-family:"Courier New"'>RowList</span></span><span
+class=GramE><span style='mso-bidi-font-family:"Courier New"'>&#8220; from</span></span><span
+lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> <span
+class=SpellE>MfcAdapterDemo</span>.<o:p></o:p></span></p>
+
+<p><span lang=EN style='mso-bidi-font-family:"Courier New";mso-ansi-language:
+EN'>The current version of the <span class=SpellE>MfcAdapter</span> does not
+support the hosting of </span><span class=SpellE><code><span lang=EN
+style='mso-ansi-language:EN'>CFormView</span></code></span><span lang=EN
+style='mso-bidi-font-family:"Courier New";mso-ansi-language:EN'> based views
+and </span><span class=SpellE><code><span lang=EN style='mso-ansi-language:
+EN'>CWinAppEx</span></code></span><span lang=EN style='mso-bidi-font-family:
+"Courier New";mso-ansi-language:EN'> based applications.<o:p></o:p></span></p>
+
+<p><span class=SpellE><span lang=EN style='mso-bidi-font-family:"Courier New";
+mso-ansi-language:EN'>MfcAdapter</span></span><span lang=EN style='mso-bidi-font-family:
+"Courier New";mso-ansi-language:EN'>&nbsp;source code compatible with x86, x64
+Windows, MFC version from 7.1 (VS2003) any configuration (ASCII\Unicode\<span
+class=SpellE>Mulibyte</span>) and .Net from 2.0 to 4.5.<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
